@@ -1,0 +1,64 @@
+.wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100%;
+  grid-auto-rows: 100%;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.link {
+ position: fixed;
+ top: 50%;
+ left: 10px;
+ text-decoration: none;
+ color: black;
+ font-size: 45px;
+ font-weight: 900;
+}
+
+.title {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  margin-top: 10px;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+
+.descr {
+  text-align: center;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  > li {
+    margin-top: 5px;
+  }
+}
+
+.margin {
+ margin-top: 5px;
+}
+
+.ingridients {
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 5px;
+}

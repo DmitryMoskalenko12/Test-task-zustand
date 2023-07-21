@@ -1,0 +1,27 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 19%);
+  grid-template-rows: 100vh;
+  grid-auto-rows: 100vh;
+  gap: 10px;
+  padding: 0;
+  list-style-type: none;
+  justify-content: center;
+  margin: 0;
+}
+
+.proccess {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.end {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 900;
+}
